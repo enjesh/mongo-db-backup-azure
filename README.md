@@ -53,17 +53,18 @@ The script performs the following steps:
    - Add your MongoDB and Azure configuration to the config.ini
 
 3. Run the script:
-   Ensure you've set the appropriate permissions to execute the script: chmod +x backup_script.sh.
+   - Ensure you've set the appropriate permissions to execute the script: chmod +x backup_script.sh.
 
-   To run the script, simply execute it in the terminal:
+   - To run the script, simply execute it in the terminal:
 
    ```bash
    ./backup_script.sh
+   ```
 
-    The script will perform a backup of the specified MongoDB databases and upload them to Azure Blob Storage.
+   - The script will perform a backup of the specified MongoDB databases and upload them to Azure Blob Storage.
 
 4. Check the log:
-   The script will create a backup.log file in the same directory, which logs the backup process and any errors that occur
+   - The script will create a backup.log file in the same directory, which logs the backup process and any errors that occur
 
 ## Note
 
